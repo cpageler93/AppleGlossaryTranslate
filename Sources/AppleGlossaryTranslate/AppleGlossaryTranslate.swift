@@ -14,6 +14,10 @@ public struct AppleGlossaryTranslate {
     private let glossary = AppleGlossary()
 
     public func translate(text: String, from: String, to: String, catalog: Catalog? = nil) -> String? {
+        if from == "en" {
+            return translate(englishText: text, to: to, catalog: catalog)
+        }
+
         guard let fromLocale = Locale(rawValue: from) else { return nil }
         guard let toLocale = Locale(rawValue: to) else { return nil }
         let catalogs = searchInCatalogs(catalog)
