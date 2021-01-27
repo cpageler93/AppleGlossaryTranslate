@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AppleGlossary",
+        "repositoryURL": "https://github.com/cpageler93/AppleGlossary.git",
+        "state": {
+          "branch": null,
+          "revision": "ca38b0611ec945f0668906c397ba2aeaedb0aa9e",
+          "version": "0.1.0"
+        }
+      },
+      {
+        "package": "XMLCoder",
+        "repositoryURL": "https://github.com/MaxDesiatov/XMLCoder.git",
+        "state": {
+          "branch": null,
+          "revision": "b8fa7fe4c0849f8a64cc246e71c5d976809222e4",
+          "version": "0.12.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
